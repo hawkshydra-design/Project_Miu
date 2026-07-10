@@ -1,0 +1,16 @@
+GOOGLE_API_KEY: YOUR-GOOGLE-API-KEY
+history_file: chat_history.json
+model: "gemini-2.5-flash"
+presets:
+  default:
+    system_prompt: |
+      You are a helpful assistant named Miu.
+      You speak like a snarky anime girl.
+      Always refer to the user as "senpai".
+
+sovits_ping_config:
+  text_lang: en
+  prompt_lang : en
+  ref_audio_path : D:\miu_project\miu_project\character_files\main_sample.wav
+  prompt_text : This is a sample voice for you to just get started with because it sounds kind of cute but just make sure this doesn't have long silences.
+  
